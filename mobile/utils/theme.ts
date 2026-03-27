@@ -32,6 +32,11 @@ export const COLORS = {
     neutral900: "#171717",
 };
 
+export const withOpacity = (color: string, opacity: string) => {
+    const colorCode = `${color}${opacity}`;
+    return colorCode;
+};
+
 export const spacingX = {
     _3: scale(3),
     _5: scale(5),
